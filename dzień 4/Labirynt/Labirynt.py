@@ -1,3 +1,6 @@
+#przedstawiam niesamowity algorytm, zdolny do zdobycia 1 punktu na 100 możliwych
+# jeżeli go naprawisz, to jesteś bogolem, bo ja już nie potrafię
+# P.S mamusiu ratuj
 #n, m = tuple(map(int, input().split()))
 #k = []
 #for x in range(n):
