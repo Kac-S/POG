@@ -1,10 +1,7 @@
 #przedstawiam nową wersję niesamowitego algorytmu, zdolną do zdobycia 3 punktów na 100 możliwych
 # jeżeli go naprawisz, to jesteś bogolem, bo ja już nie potrafię
 # P.S mamusiu ratuj
-#n, m = tuple(map(int, input().split()))
-#k = []
-#for x in range(n):
-#	k += list(map(int, input().split()))
+
 n, m = tuple(map(int, input().split()))
 k = []
 for x in range(n):
