@@ -17,7 +17,7 @@ for i in x:
         a -= 1
         c += 1
 
-if a < 0:
+if a <= 0:
     print(-1)
 else:
     print(c)
