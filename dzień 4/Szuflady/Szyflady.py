@@ -4,6 +4,8 @@ def INT(x):
     x[i] = int(x[i])
   return x
 
+
+
 n = int(input())
 x = list(reversed(INT(input().split())))
 a = x[0] + 1

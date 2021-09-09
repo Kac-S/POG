@@ -9,6 +9,8 @@ def ARRAY(l):
     a.append(0)
   return a
 
+ # a = []*l
+
 def POWER(a, n):
   if n == 0:
     return 1
