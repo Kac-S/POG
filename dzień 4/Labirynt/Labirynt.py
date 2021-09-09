@@ -1,30 +1,35 @@
-#przedstawiam nową wersję niesamowitego algorytmu, zdolną do zdobycia 3 punktów na 100 możliwych
+#przedstawiam niesamowity algorytm, zdolny do zdobycia 1 punktu na 100 możliwych
 # jeżeli go naprawisz, to jesteś bogolem, bo ja już nie potrafię
 # P.S mamusiu ratuj
 #n, m = tuple(map(int, input().split()))
 #k = []
 #for x in range(n):
 #	k += list(map(int, input().split()))
-n, m = tuple(map(int, input().split()))
-k = []
-for x in range(n):
-	k += list(map(int, input().split()))
+n, m = 3, 4
+k = [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+print(k)
+odw = [k[-1]]
+nast = k[-1]
+energia = 0
 
-kom = k[-1]
-odw = []
-energia = 1
+if nast == 1:
+	print(1)
+	exit()
 while True:
+	kom = k[nast-1]
+	odw.append(kom)
+	print("O", odw)
 	if kom == 1:
 		print(energia)
 		break
+		exit()
 	elif kom in odw:
-		print("NIE")
+		print('NIE')
 		break
+		exit()
 	else:
-		energia += 1
-		odw.append(kom)
-		kom = k[kom-1]
-exit()
+		nast = kom
+	energia += 1
 
 
 
